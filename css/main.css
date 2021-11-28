@@ -411,7 +411,7 @@ img {
 }
 
 .hero {
-  background: url("./images/bg/surfers.png") center bottom 25%/cover no-repeat;
+  background: url("/images/bg/surfers.png") center bottom 25%/cover no-repeat;
   height: 100vh;
   min-height: 650px;
   color: #fff;
@@ -536,6 +536,7 @@ img {
   text-decoration: none;
   display: inline-block;
   border: none;
+  cursor: pointer;
 }
 .btn--theme--yellow {
   background: #FEDB3F;
@@ -756,7 +757,7 @@ img {
 }
 
 .order-section {
-  background: url("./images/bg/surfer.png") center top 25%/cover no-repeat;
+  background: url("/images/bg/surfer.png") center top 25%/cover no-repeat;
   background-color: #2B2B2B;
   height: 100vh;
   min-height: 650px;
@@ -843,7 +844,7 @@ img {
   border-radius: 4px;
 }
 .radio--checkbox .radio__visible::before {
-  background: url("./images/Icons/daw.svg") center center/cover no-repeat;
+  background: url("/images/Icons/daw.svg") center center/cover no-repeat;
 }
 
 .radio__elem {
