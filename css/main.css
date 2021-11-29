@@ -608,7 +608,7 @@ img {
   position: relative;
 }
 .benefits__item::before {
-  content: url("../../images/Icons/separator.png");
+  content: url("../images/Icons/separator.png");
   position: absolute;
   top: 55px;
   right: 0;
@@ -669,7 +669,6 @@ img {
   background: #F8FAF9;
   padding: 41px 40px 41px;
   margin-bottom: 15px;
-  margin-right: 85px;
 }
 
 .reviews__display-inner {
@@ -695,12 +694,12 @@ img {
       -ms-flex: 1;
           flex: 1;
   margin-left: 40px;
+  padding-top: 24px;
 }
 
 .reviews__title {
   font-size: 27px;
   font-weight: bold;
-  margin-top: 24px;
   margin-bottom: 12px;
   color: #292929;
 }
@@ -842,6 +841,14 @@ img {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.form__controls:last-child {
+  margin-bottom: 0;
+}
+
+.form__controls-radio {
+  margin-right: 12px;
 }
 
 .radio {
@@ -894,8 +901,6 @@ img {
 
 .radio__title {
   margin-left: 10px;
-  margin-right: 12px;
-  margin-bottom: 20px;
 }
 
 .fixed-menu {

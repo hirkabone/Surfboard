@@ -1,7 +1,11 @@
-.radio {
+@mixin radio {
     display: flex;
     cursor: pointer;
     user-select: none;
+}
+
+.radio {
+    @include radio;
 
     &--checkbox {
         margin-bottom: 50px;
@@ -15,6 +19,7 @@
         }
     }
 }
+
 
 .radio__elem {
     display: none;
@@ -49,6 +54,4 @@
 
 .radio__title {
     margin-left: 10px;
-    margin-right: 12px;
-    margin-bottom: 20px;
 }
