@@ -53,6 +53,10 @@
     &:last-child {
         margin-bottom: 0;
     }
+
+    &--margin-bottom__increase {
+        margin-bottom: 70px;
+    }
 }
 
 .form__controls-radio {

@@ -846,6 +846,9 @@ img {
 .form__controls:last-child {
   margin-bottom: 0;
 }
+.form__controls--margin-bottom__increase {
+  margin-bottom: 70px;
+}
 
 .form__controls-radio {
   margin-right: 12px;
@@ -860,9 +863,6 @@ img {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-}
-.radio--checkbox {
-  margin-bottom: 50px;
 }
 .radio--checkbox .radio__visible {
   border-radius: 4px;
