@@ -1,0 +1,14 @@
+.socials {
+    display: flex;
+    align-items: center;
+}
+
+
+.social__item {
+    margin-right: rem(14px);
+}
+
+.socials__icon {
+    width: rem(20px);
+    height: rem(20px);
+}

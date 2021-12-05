@@ -8,10 +8,10 @@
     @include radio;
 
     &--checkbox {
-        // margin-bottom: 50px;
+        // margin-bottom: rem(50px);
         
         .radio__visible {
-            border-radius: 4px;
+            border-radius: rem(4px);
 
             &::before {
                 background: url("../images/Icons/daw.svg") center center / cover no-repeat;
@@ -32,16 +32,16 @@
 }
 
 .radio__visible {
-    width: 25px;
-    height: 25px;
+    width: rem(25px);
+    height: rem(25px);
     position: relative;
     border-radius: 50%;
     background: #fff;
     
     &:before {
         content: "";
-        width: 13px;
-        height: 13px;
+        width: rem(13px);
+        height: rem(13px);
         background: #FEDB3F;
         border-radius: 50%;
         position: absolute;
@@ -53,5 +53,5 @@
 }
 
 .radio__title {
-    margin-left: 10px;
+    margin-left: rem(10px);
 }
