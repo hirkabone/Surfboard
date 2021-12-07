@@ -28,7 +28,7 @@
 
 .form__row {
     display: flex;
-    margin-bottom: rem(20px);
+    margin-bottom: rem(12px);
 
     @include tablets {
         margin-bottom: rem(16px);
@@ -47,6 +47,12 @@
         }
     }
 
+    &--margin-bottom__hight {
+
+        @include phones {
+            margin-bottom: rem(27px);
+        }
+    }
 }
 
 
@@ -62,11 +68,11 @@
 .form__input {
     width: 100%;
     border-radius: rem(4px);
-    padding: rem(18px) rem(11px);
+    padding: rem(16px) rem(11px);
     border: solid rem(3px) transparent;
 
     &--textarea {
-        height: rem(170px);
+        height: rem(152px);
         resize: none;
         margin-bottom: rem(18px);
 
@@ -100,10 +106,14 @@
     }
 
     &--margin-bottom__increase {
-        margin-bottom: rem(70px);
+        margin-bottom: rem(46px);
 
         @include tablets {
             margin-bottom: rem(39px);
+        }
+
+        @include phones {
+            margin-bottom: rem(55px);
         }
     }
 
@@ -116,6 +126,11 @@
 
 .form__controls-radio {
     margin-right: rem(12px);
+
+    @include tablets {
+    margin-right: rem(30px);
+
+    }
 }
 
 

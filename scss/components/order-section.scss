@@ -24,8 +24,13 @@
     color: #fff;
     position: relative;
     z-index: 1;
+    margin-bottom: rem(52px);
 
     @include tablets {
         margin-bottom: rem(27px);
+    }
+
+    @include phones {
+        margin-bottom: 2.5rem;
     }
 }

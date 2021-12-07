@@ -9,6 +9,15 @@
     display: inline-block;
     border: none;
     cursor: pointer;
+    
+    @include tablets {
+        padding: rem(23px) rem(45px);
+    }
+
+    @include phones {
+        font-size: rem(22px);
+        padding: rem(24px) rem(42px);
+    }
 
     &--theme--yellow {
         background: $yellow;

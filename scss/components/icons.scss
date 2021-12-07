@@ -1,0 +1,16 @@
+.material-icon, .surf-icon {
+    transform: translate(rem(30px), rem(30px));
+}
+
+.person-icon {
+    transform: translate(rem(40px), rem(30px));
+}
+
+.vk-icon, .fb-icon, .in-icon, .tw-icon {
+    width: rem(22px);
+    height: rem(22px);
+}
+
+.vk-icon {
+    transform: translateY(5px);
+}

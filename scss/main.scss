@@ -5,7 +5,6 @@ $baseFontSize: 18px;
 //breakpoints
 $tablets: 768px;
 $phones: 480px;
-$old-phones: 360px;
 
 
 //colors
@@ -49,6 +48,8 @@ $z-fixed-menu:100;
 @import "./components/footer.scss";
 @import "./components/contacts.scss";
 @import "./components/socials.scss";
+@import "./components/icons.scss";
+
 
 
 

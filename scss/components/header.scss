@@ -1,27 +1,33 @@
 .header {
     display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
+    align-items: center;
 
     @include tablets {
-        align-items: center;
+        justify-content: space-between;
+        padding: 0 rem(12px);
+    }
+
+    @include phones {
+        padding: 0;
     }
 }
 
 .logo {
     flex-shrink: 0;
+    margin-right: rem(15px);
 }
 
 .phone-number {
-    font-size: rem(24px);
+    font-size: rem(22px);
     text-decoration: none;
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 
 .phone-number__icon {
-    width: rem(12px);
-    height: rem(12px);
+    width: rem(13px);
+    height: rem(14px);
     margin-right: rem(6px);
     flex-shrink: 0;
 }

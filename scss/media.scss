@@ -15,9 +15,3 @@
         @content;
     }
 }
-
-@mixin old-phones {
-    @media screen and (max-width: $old-phones) {
-        @content;
-    }
-}
