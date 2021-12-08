@@ -1425,24 +1425,12 @@ img {
   }
 }
 
-.footer__phone-number {
-  margin-left: 1.1111111111rem;
-  position: relative;
-}
-.footer__phone-number::before {
-  content: "";
-  background: url("../images/Icons/phone-black.svg") no-repeat;
-  position: absolute;
-  width: 0.7777777778rem;
-  height: 0.7777777778rem;
-  display: block;
-  margin-top: 0.4444444444rem;
-}
 @media screen and (max-width: 480px) {
-  .footer__phone-number::before {
-    top: 0;
-    bottom: 0;
-    left: -1.1111111111rem;
+  .footer__phone-number {
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -1495,4 +1483,8 @@ img {
 .vk-icon, .fb-icon, .in-icon, .tw-icon {
   width: 1.2222222222rem;
   height: 1.2222222222rem;
+}
+
+.phone-icon--color--white {
+  fill: white;
 }
