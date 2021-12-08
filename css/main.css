@@ -343,9 +343,9 @@ html {
     font-size: 17px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   html {
-    font-size: 2vmax;
+    font-size: 3.4vmin;
   }
 }
 
@@ -440,7 +440,7 @@ img {
     background-color: #1968B1;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .hero {
     background-size: cover;
   }
@@ -471,7 +471,7 @@ img {
     text-align: center;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .hero__title-section {
     -webkit-box-flex: 0.88;
         -ms-flex: 0.88;
@@ -514,7 +514,7 @@ img {
     margin-bottom: 0.4444444444rem;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .hero__main-title {
     font-size: 2.5rem;
     line-height: 0.9;
@@ -532,7 +532,7 @@ img {
     font-size: 1.3333333333rem;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .hero__title-desc {
     font-size: 1.1111111111rem;
     margin-bottom: 2.6666666667rem;
@@ -555,7 +555,7 @@ img {
     padding: 0 0.6666666667rem;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .header {
     padding: 0;
   }
@@ -685,7 +685,7 @@ img {
     padding: 1.2777777778rem 2.5rem;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .btn {
     font-size: 1.2222222222rem;
     padding: 1.3333333333rem 2.3333333333rem;
@@ -732,7 +732,7 @@ img {
   text-transform: uppercase;
   color: #292929;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .section__title {
     font-size: 2.5rem;
     line-height: 1.1;
@@ -746,7 +746,7 @@ img {
 .headline__title {
   margin-bottom: 0.6111111111rem;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .headline__title {
     margin-bottom: 0;
   }
@@ -763,7 +763,7 @@ img {
     margin: 0 auto 2.7777777778rem;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .headline__subtitle {
     font-size: 1.1111111111rem;
     margin: 0 auto 3.0555555556rem;
@@ -775,7 +775,7 @@ img {
   display: -ms-flexbox;
   display: flex;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .benefits {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -791,7 +791,7 @@ img {
   padding: 0 3%;
   position: relative;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .benefits__item {
     padding: 0;
     margin-bottom: 1.5555555556rem;
@@ -823,7 +823,7 @@ img {
 .benefit {
   text-align: center;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .benefit {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -843,7 +843,7 @@ img {
     margin-bottom: 1rem;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .benefit__image {
     margin-bottom: 0;
     margin-right: 0.7777777778rem;
@@ -859,7 +859,7 @@ img {
   border-radius: 50%;
   overflow: hidden;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .benefit__image-wrapper {
     width: 7.7777777778rem;
     height: 7.7777777778rem;
@@ -887,7 +887,7 @@ img {
     margin-bottom: 0.3333333333rem;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .benefit__title {
     font-size: 1.6111111111rem;
   }
@@ -897,7 +897,7 @@ img {
   color: #666666;
   line-height: 1.2222222222rem;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .benefit__desc {
     padding-right: 5%;
   }
@@ -913,7 +913,7 @@ img {
     padding: 2.3333333333rem 2.3333333333rem 2.3333333333rem 2.3333333333rem;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .reviews__display {
     padding: 2.3333333333rem 2.3333333333rem 0 2.3333333333rem;
     margin-bottom: 3.833333rem;
@@ -996,7 +996,7 @@ img {
     margin-bottom: 1.2777777778rem;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .reviews__name {
     margin-bottom: 0;
   }
@@ -1077,7 +1077,7 @@ img {
     margin-bottom: 1.5rem;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .order-section__title {
     margin-bottom: 2.5rem;
   }
@@ -1099,7 +1099,7 @@ img {
     padding: 0 17%;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .form {
     padding: 0;
   }
@@ -1141,7 +1141,7 @@ img {
     margin-bottom: 22px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .form__row--margin-bottom__hight {
     margin-bottom: 1.5rem;
   }
@@ -1208,12 +1208,12 @@ img {
     margin-bottom: 2.1666666667rem;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .form__controls--margin-bottom__increase {
     margin-bottom: 3.0555555556rem;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .form__controls {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1395,7 +1395,7 @@ img {
     max-width: 41.1111111111rem;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .footer__container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1409,7 +1409,7 @@ img {
   font-style: normal;
   position: relative;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .contacts {
     margin-bottom: 0.5555555556rem;
     display: -webkit-box;
@@ -1425,7 +1425,7 @@ img {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .footer__phone-number {
     margin: 0;
     display: -webkit-box;
@@ -1434,7 +1434,7 @@ img {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .contacts__place {
     margin-bottom: 0.6111111111rem;
   }
@@ -1473,7 +1473,7 @@ img {
   -webkit-transform: translateY(1.6666666667rem);
           transform: translateY(1.6666666667rem);
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .material-icon, .surf-icon, .person-icon {
     -webkit-transform: translate(1.9444444444rem, 1.6666666667rem);
             transform: translate(1.9444444444rem, 1.6666666667rem);
