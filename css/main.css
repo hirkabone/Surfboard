@@ -1456,9 +1456,8 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .social__item {
@@ -1467,22 +1466,33 @@ img {
   height: 1.1111111111rem;
 }
 
-.material-icon, .surf-icon {
-  -webkit-transform: translate(1.6666666667rem, 1.6666666667rem);
-          transform: translate(1.6666666667rem, 1.6666666667rem);
+.phone-icon {
+  width: 0.7777777778rem;
+  height: 0.7777777778rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.person-icon {
-  -webkit-transform: translate(2.2222222222rem, 1.6666666667rem);
-          transform: translate(2.2222222222rem, 1.6666666667rem);
+.surfboard-icon, .desktop-icon, .car-icon {
+  width: 1.9444444444rem;
+  height: 1.9444444444rem;
+}
+
+.material-icon, .surf-icon, .person-icon {
+  width: 3.8888888889rem;
+  height: 3.8888888889rem;
+  -webkit-transform: translateY(1.6666666667rem);
+          transform: translateY(1.6666666667rem);
+}
+@media screen and (max-width: 480px) {
+  .material-icon, .surf-icon, .person-icon {
+    -webkit-transform: translate(1.9444444444rem, 1.6666666667rem);
+            transform: translate(1.9444444444rem, 1.6666666667rem);
+  }
 }
 
 .vk-icon, .fb-icon, .in-icon, .tw-icon {
   width: 1.2222222222rem;
   height: 1.2222222222rem;
-}
-
-.vk-icon {
-  -webkit-transform: translateY(5px);
-          transform: translateY(5px);
 }
