@@ -21,6 +21,14 @@ padding-top: rem(5px);
     &:last-child {
         margin-right: 0;
     }
+
+    @include tablets {
+        margin-right: 3.333333rem;
+
+        &:last-child {
+            margin-right: 3.333333rem;
+        }
+    }
 }
 
 .menu__link {

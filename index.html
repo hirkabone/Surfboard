@@ -76,6 +76,98 @@
           </div>
         </div>
       </section>
+      <section class="section products-section">
+        <div class="container slider-container">
+          <div class="products-slider">
+            <div class="product-slider__arrows">
+              <a href="#" class="product-slider__arrow product-slider__arrow--direction--prev">
+                <img src="./images/slider/arrow-left.png" alt="arrow left" class="arrow__pic">
+              </a>
+              <a href="#" class="product-slider__arrow product-slider__arrow--direction--next">
+                <img src="./images/slider/arrow-right.png" alt="arrow right" class="arrow__pic">
+              </a>
+            </div>
+            <ul class="products">
+              <li class="products__item product">
+                <div class="product__container">
+                  <div class="product__col">
+                    <div class="image-wrapper">
+                      <img src="./images/slider/board-bg.png" alt="surfboard image" class="product__image">
+                    </div>
+                  </div>
+                  <div class="product__col">
+                    <div class="product__parameters">
+                      <div class="parameters-block">
+                        <a href="#" class="dropdown__link">Параметры</a>
+                        <div class="dropdown__menu">
+                          <ul class="dropdown__list">
+                            <li class="dropdown__item">
+                              <svg class="dropdown__item-icon">
+                                <use xlink:href="./sprite.svg#left-right-arrows"></use>
+                              </svg>
+                              <div class="dropdown__item-text">Длина доски</div>
+                              <div class="dropdown__item-value">от 2.5 м</div>
+                            </li>
+                            <li class="dropdown__item">
+                              <svg class="dropdown__item-icon">
+                                <use xlink:href="./sprite.svg#diagonal-arrows"></use>
+                              </svg>
+                              <div class="dropdown__item-text">Ширина доски</div>
+                              <div class="dropdown__item-value">от 40 см</div>
+                            </li>
+                            <li class="dropdown__item">
+                              <svg class="dropdown__item-icon">
+                                <use xlink:href="./sprite.svg#thickness"></use>
+                              </svg>
+                              <div class="dropdown__item-text">Толщина</div>
+                              <div class="dropdown__item-value">8 см</div>
+                            </li>
+                            <li class="dropdown__item">
+                              <svg class="dropdown__item-icon">
+                                <use xlink:href="./sprite.svg#clock"></use>
+                              </svg>
+                              <div class="dropdown__item-text">Срок службы</div>
+                              <div class="dropdown__item-value">5 лет</div>
+                            </li>
+                            <li class="dropdown__item">
+                              <svg class="dropdown__item-icon">
+                                <use xlink:href="./sprite.svg#pud"></use>
+                              </svg>
+                              <div class="dropdown__item-text">Вес</div>
+                              <div class="dropdown__item-value">7-8кг</div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product__title">Лонгборд 2.0</div>
+                    <div class="product__text">
+                      <p>
+                        Устойчивая доска для новичков. На них легко лежать, сидеть, грести, разгребаться на волны и ехать.
+                        Размер и плавучесть доски позволяет брать очень маленькие и пологие волны и не спеша, не прилагая особых усилий ехать по ним.  
+                      </p>
+                    </div>
+                    <table class="product__values">
+                      <tr class="first-value">
+                        <td>Длина доски</td>
+                        <td class="second-col">Ширина доски</td>
+                      </tr>
+                      <tr class="second-value">
+                        <td>от 2,5 метров</td>
+                        <td class="second-col">от 40 сантиметров</td>
+                      </tr>
+                    </table>
+                    <div class="product__cost">
+                      <div class="cost-text">7000 ₽</div>
+                      <a href="#" class="btn product__btn">Заказать</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
       <section class="section benefits-section">
         <div class="container">
           <div class="headline">
@@ -301,6 +393,24 @@
       </section>
     </div>
   </div>
+  <div class="fullscreen-menu">
+    <a href="#" class="fullscreen-menu__close">
+      <svg class="close-icon">
+        <use xlink:href="./sprite.svg#close"></use>
+      </svg>
+    </a>
+    <nav class="menu menu--vertical">
+      <ul class="menu__list">
+        <li class="menu__item"> <a href="#" class="menu__link">О нас </a> </li>
+        <li class="menu__item"> <a href="#" class="menu__link">Серфобры</a> </li>
+        <li class="menu__item"> <a href="#" class="menu__link">Команда</a> </li>
+        <li class="menu__item"> <a href="#" class="menu__link">Меню</a> </li>
+        <li class="menu__item"> <a href="#" class="menu__link">Отзывы</a> </li>
+        <li class="menu__item"> <a href="#" class="menu__link">Как мы работаем</a> </li>
+        <li class="menu__item"> <a href="#" class="menu__link">Контакты</a> </li>
+      </ul>
+    </nav>
+  </div>
   <nav class="fixed-menu">
     <ul class="fixed-menu__list">
       <li class="fixed-menu__item fixed-menu__item--active"> <a href="#" class="fixed-menu__link"> </a></li>
@@ -314,5 +424,6 @@
       <li class="fixed-menu__item"> <a href="#" class="fixed-menu__link"> </a></li>
     </ul>
   </nav>
+  <script src="./js/fullscreen-menu.js"></script>
 </body>
 </html>
