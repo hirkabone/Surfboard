@@ -24,7 +24,7 @@
 }
 
 .parameters-block:hover .dropdown__menu {
-    display: block;
+    display: flex;
 }
 
 .parameters-block:hover .dropdown__link {
@@ -35,7 +35,7 @@
 .dropdown__menu {
     position: absolute;
     top: 0;
-    right: rem(96px);
+    right: rem(38px);
     width: rem(275px);
     height: rem(292px);
     background: rgba(255, 255, 255, 0.8);
