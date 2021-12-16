@@ -1,14 +1,14 @@
 .product-slider__arrow {
     margin: 0 auto;
     position: absolute;
-    z-index: 10;
+    z-index: 1;
     top: 50%;
 
     &--direction--prev {
         left: 0;
 
         @include tablets {
-            transform: translate(rem(110px), rem(-162px));
+            transform: translate(rem(163px), rem(-174px));
         }
         @include phones {
             transform: translate(0, rem(-182px));
@@ -19,7 +19,7 @@
         right: 0;
 
         @include tablets {
-            transform: translate(rem(-120px), rem(-164px));
+            transform: translate(rem(-123px), rem(-175px));
         }
         @include phones {
             transform: translate(0, rem(-182px));

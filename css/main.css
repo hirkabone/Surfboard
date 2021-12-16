@@ -1518,7 +1518,7 @@ img {
 .product-slider__arrow {
   margin: 0 auto;
   position: absolute;
-  z-index: 10;
+  z-index: 1;
   top: 50%;
 }
 .product-slider__arrow--direction--prev {
@@ -1526,8 +1526,8 @@ img {
 }
 @media screen and (max-width: 768px) {
   .product-slider__arrow--direction--prev {
-    -webkit-transform: translate(6.1111111111rem, -9rem);
-            transform: translate(6.1111111111rem, -9rem);
+    -webkit-transform: translate(9.0555555556rem, -9.6666666667rem);
+            transform: translate(9.0555555556rem, -9.6666666667rem);
   }
 }
 @media screen and (max-width: 500px) {
@@ -1541,8 +1541,8 @@ img {
 }
 @media screen and (max-width: 768px) {
   .product-slider__arrow--direction--next {
-    -webkit-transform: translate(-6.6666666667rem, -9.1111111111rem);
-            transform: translate(-6.6666666667rem, -9.1111111111rem);
+    -webkit-transform: translate(-6.8333333333rem, -9.7222222222rem);
+            transform: translate(-6.8333333333rem, -9.7222222222rem);
   }
 }
 @media screen and (max-width: 500px) {
@@ -1561,7 +1561,6 @@ img {
           align-items: center;
   width: 100%;
   height: 100%;
-  padding: 0 5%;
 }
 @media screen and (max-width: 768px) {
   .product__container {
@@ -1582,7 +1581,7 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 0 1% 0;
+  padding-left: 7%;
 }
 @media screen and (max-width: 768px) {
   .product__col {
@@ -1605,16 +1604,16 @@ img {
 }
 
 .image-wrapper {
-  background: url("../../images/slider/board-before-bg.png") center top 65%/contain no-repeat;
+  background: url("../images/slider/board-before-bg.png") center top 65%/contain no-repeat;
 }
 @media screen and (max-width: 768px) {
   .image-wrapper {
-    width: 48%;
+    width: 45%;
   }
 }
 @media screen and (max-width: 500px) {
   .image-wrapper {
-    width: 60%;
+    width: 57%;
   }
 }
 
