@@ -1705,7 +1705,7 @@ img {
 }
 
 .product__btn {
-  background-color: #FFD517;
+  background: #FEDB3F;
   color: #000;
   margin-right: 2rem;
 }
@@ -1719,10 +1719,14 @@ img {
     font-size: 1rem;
   }
 }
+.product__btn::hover {
+  background-color: #FFD517;
+}
 
 .parameters-block {
   width: 5.0555555556rem;
   height: 5.0555555556rem;
+  background: url("../images/slider/arrows.png") center top 30%/cover no-repeat;
   background-color: #3A587E;
   border-radius: 0.2222222222rem;
   color: #fff;
@@ -1759,7 +1763,7 @@ img {
 .dropdown__link {
   width: 5.0555555556rem;
   height: 5.0555555556rem;
-  background: url("../../images/slider/arrows.png") center top 30%/cover no-repeat;
+  background: url("../images/slider/arrows.png") center top 30%/cover no-repeat;
   background-size: 2.2222222222rem, 2.2222222222rem;
   background-color: #3A587E;
   border-radius: 0.2222222222rem;
@@ -1876,6 +1880,9 @@ img {
   background-color: #F8FAF9;
 }
 
+.fullscreen-menu {
+  display: none;
+}
 @media screen and (max-width: 768px) {
   .fullscreen-menu {
     position: absolute;

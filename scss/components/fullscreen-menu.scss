@@ -1,4 +1,5 @@
 .fullscreen-menu {
+    display: none;
     @include tablets {
     position: absolute;
     top: 0;
