@@ -13,7 +13,29 @@
     }
 }
 
-.reviews__display-inner {
+.reviews__list {
+    position: relative;
+    min-height: rem(280px);
+}
+
+.reviews__item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: .3s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.visible {
+    position: static;
+    opacity: 1;
+    pointer-events: unset;
+}
+
+.reviews__item-inner {
     display: flex;
 
     @include tablets {
@@ -83,4 +105,9 @@
 .reviews__switcher {
     display: flex;
     justify-content: center;
+    position: relative;
+}
+
+.reviews__switcher-item {
+
 }

@@ -740,6 +740,9 @@ img {
   text-transform: uppercase;
   color: #292929;
 }
+.section__title--team {
+  margin-bottom: 2.6666666667rem;
+}
 @media screen and (max-width: 500px) {
   .section__title {
     font-size: 2.5rem;
@@ -928,13 +931,36 @@ img {
   }
 }
 
-.reviews__display-inner {
+.reviews__list {
+  position: relative;
+  min-height: 15.5555555556rem;
+}
+
+.reviews__item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.visible {
+  position: static;
+  opacity: 1;
+  pointer-events: unset;
+}
+
+.reviews__item-inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 @media screen and (max-width: 768px) {
-  .reviews__display-inner {
+  .reviews__item-inner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1017,6 +1043,7 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
 }
 
 .interactive-avatar {
@@ -1027,7 +1054,13 @@ img {
   overflow: hidden;
   position: relative;
 }
-.interactive-avatar--active {
+.interactive-avatar:hover {
+  border-color: #FEDB3F;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.active {
   border-color: #FEDB3F;
 }
 
@@ -1945,4 +1978,114 @@ img {
   .menu--vertical {
     width: 44%;
   }
+}
+
+.team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.team--version--desktop .team__content {
+  position: absolute;
+  top: 100%;
+}
+@media screen and (max-width: 768px) {
+  .team--version--desktop {
+    display: none;
+  }
+}
+.team--version--mobile {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .team--version--mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 10%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+.team--version--mobile .team__item {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 0.8888888889rem;
+  -webkit-box-flex: initial;
+      -ms-flex: initial;
+          flex: initial;
+  margin-right: 0;
+}
+.team--version--mobile .team__content-block {
+  height: 22.2222222222rem;
+}
+
+.team__item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  margin-right: 1.1111111111rem;
+  max-width: 12.5rem;
+  position: relative;
+}
+
+.team__member {
+  height: 15.7777777778rem;
+  margin-bottom: 1.4444444444rem;
+}
+
+.team__title {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #292929;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.1666666667rem;
+  font-weight: bold;
+  line-height: 1.3888888889rem;
+  border: none;
+  background: transparent;
+  margin-bottom: 1.1111111111rem;
+  cursor: pointer;
+}
+.team__title::after {
+  content: url("../images/team/triagle.jpg");
+  margin: 0 0 0.2777777778rem 0.2222222222rem;
+}
+
+.team__content {
+  color: #666;
+  overflow: hidden;
+  height: 0;
+  -webkit-transition: height 0.3s;
+  transition: height 0.3s;
+}
+
+.team__content-block {
+  height: 4.7222222222rem;
+  padding-bottom: 0.2777777778rem;
+}
+
+.content__title {
+  color: #000;
+}
+
+.content__text {
+  max-height: 2.4444444444rem;
 }

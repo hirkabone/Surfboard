@@ -6,9 +6,14 @@
     overflow: hidden;
     position: relative;
 
-    &--active {
+    &:hover {
         border-color:#FEDB3F;
+        transition: .3s;
     }
+}
+
+.active {
+    border-color:#FEDB3F;
 }
 
 .interactive__avatar-link {
