@@ -2041,7 +2041,7 @@ img {
 }
 
 .team__member {
-  height: 15.7777777778rem;
+  height: 16rem;
   margin-bottom: 1.4444444444rem;
 }
 
@@ -2066,7 +2066,16 @@ img {
 }
 .team__title::after {
   content: url("../images/team/triagle.jpg");
-  margin: 0 0 0.2777777778rem 0.2222222222rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  padding: 0 0 1rem 0.2777777778rem;
+}
+
+.active .team__title::after {
+  content: url("../images/team/triagle.jpg");
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  padding: 0 0.2777777778rem 1rem 0;
 }
 
 .team__content {

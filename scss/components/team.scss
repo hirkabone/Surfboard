@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
 
-
     &--version--desktop {
         .team__content {
             position: absolute;
@@ -45,7 +44,7 @@
 }
 
 .team__member {
-    height: rem(284px);
+    height: rem(288px);
     margin-bottom: rem(26px);
 }
 
@@ -64,7 +63,17 @@
 
     &::after {
         content: url("../images/team/triagle.jpg");
-        margin: 0 0 rem(5px) rem(4px);
+        width: rem(9px);
+        height: rem(9px);
+        padding: 0 0 rem(18px) rem(5px);
+    }
+}
+
+.active {
+    .team__title::after {
+        content: url("../images/team/triagle.jpg");
+        transform: rotate(180deg);
+        padding: 0 rem(5px) rem(18px) 0;
     }
 }
 
