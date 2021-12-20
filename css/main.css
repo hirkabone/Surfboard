@@ -1735,6 +1735,7 @@ img {
           align-items: center;
 }
 .cost-text {
+  white-space: nowrap;
   font-size: 3.3333333333rem;
   color: #151515;
 }
