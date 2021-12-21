@@ -1,4 +1,11 @@
 .modal {
+
+    &.error-modal {
+        .modal__content-text {
+            color: red;
+        }
+    }
+
     &.fancybox-content {
         padding: 0 !important;
     }
@@ -13,11 +20,11 @@
 
 .modal__container {
     margin: auto;
-    padding: rem(20px);
+    padding: rem(35px) rem(60px) rem(20px);
     background: #fff;
     color: #000;
-    width: rem(310px);
-    height: rem(175px);
+    width: 100%;
+    height: 100%;
 }
 
 .modal__content {
@@ -27,10 +34,12 @@
     align-content: center;
     justify-content: center;
     height: 100%;
+    margin-bottom: rem(18px);
 }
 
 .modal__content-text {
-    margin-bottom: rem(18px);
+    margin-bottom: rem(25px);
+    white-space: nowrap;
 }
 
 .modal__content-btn {

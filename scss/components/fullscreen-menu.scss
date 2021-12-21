@@ -1,7 +1,7 @@
 .fullscreen-menu {
     display: none;
     @include tablets {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -13,6 +13,7 @@
     align-items: center;
     justify-content: center;
     color: #fff;
+    z-index: 1000;
     }
 }
 
