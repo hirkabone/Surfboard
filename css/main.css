@@ -2164,3 +2164,10 @@ img {
 .modal__content-btn {
   background: #FEDB3F;
 }
+
+.player {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
