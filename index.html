@@ -496,23 +496,33 @@
           </div>
         </div>
       </section>
-      <section class="section player-section">
-        <div class="container">
-          <h2 class="section__title">Как мы работаем</h2>
-          <div class="player-section__container">
-            <div class="player active">
-              <div class="player__wrapper">
-                <div class="player__elem" id="yt-player"></div>
-                <div class="player__splash"></div>
-              </div>
-              <div class="player__controls">
-                <button class="player__start"></button>
-                <div class="player__playback">
-                  <button class="player__playback-button"></button>
+      <section class="section video-section">
+        <div class="container video__container">
+          <h2 class="section__title video__title">Как мы работаем</h2>
+          <div class="video__wrapper">
+            <div class="video__box">
+              <video src="./video/video.mp4" class="video__player" id="player" poster="./images/video/surfer-bg.png">
+                <source>
+              </video>
+              <button class="video__player-img">
+                <img src="./images/video/triagle.svg" alt="play" class="video__btn-img play">
+              </button>
+            </div>
+            <div class="video__toolbar">
+              <div class="duration">
+                <div class="duration__btn-wrap">
+                  <button class="duration__img play"></button>
                 </div>
-                <div class="player__duration">
-                  <span class="player__duration-completed">0:00</span>
-                  <span class="player__duration-estimate">0:00</span>
+                <div class="duration__track-wrap">
+                  <input type="range" class="duration__track range-control" id="durationLevel">
+                </div>
+              </div>
+              <div class="sound">
+                <button class="sound__btn" id="mic">
+                  <img src="./images/video/sound.svg" alt="sound volume" class="sound__mic">
+                </button>
+                <div class="sound__volume">
+                  <input type="range" class="sound__track range-control" id="micLevel">
                 </div>
               </div>
             </div>
@@ -685,12 +695,11 @@
   <script src="./js/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
   <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-  <script src="https://www.youtube.com/iframe_api"></script>
   <script src="./js/modal.js"></script>
   <script src="./js/slider.js"></script>
   <script src="./js/fullscreen-menu.js"></script>
   <script src="./js/slideshow.js"></script>
   <script src="./js/vertical-acco.js"></script>
-  <script src="./js/player.js"></script>
+  <script src="./js/video.js"></script>
 </body>
 </html>
