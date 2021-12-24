@@ -1409,8 +1409,9 @@ img {
   border-radius: 0.5555555556rem;
 }
 
-.map-section {
-  background: url("../images/bg/map.png") center center/cover no-repeat;
+.map {
+  width: 100%;
+  height: 100%;
 }
 
 .footer {
