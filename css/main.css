@@ -2436,6 +2436,17 @@ img {
           flex-direction: column;
   overflow: hidden;
 }
+.products-menu-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  opacity: 50%;
+  z-index: 1;
+}
 
 .products-menu-section__title {
   -webkit-box-flex: 1;
@@ -2444,6 +2455,7 @@ img {
   color: #fff;
   width: 20%;
   margin: 6.1111111111rem 0 0 4.7222222222rem;
+  z-index: 2;
 }
 @media screen and (max-width: 768px) {
   .products-menu-section__title {
@@ -2527,6 +2539,7 @@ img {
   overflow: hidden;
   -webkit-transition: width 0.7s;
   transition: width 0.7s;
+  z-index: 2;
 }
 @media screen and (max-width: 500px) {
   .products-menu__content {
