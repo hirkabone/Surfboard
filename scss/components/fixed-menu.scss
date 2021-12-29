@@ -7,6 +7,20 @@
     @include tablets {
         display: none;
     }
+
+    &--dark--theme {
+        .fixed-menu__item--active {
+            .fixed-menu__link {
+                border-color: #000;
+                transition: border-color .4s;
+            }
+        }
+
+        .fixed-menu__link::before {
+            background: #000;
+            transition: background .4s;
+        }
+    }
 }
 
 .fixed-menu__item {

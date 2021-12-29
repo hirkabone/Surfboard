@@ -369,7 +369,7 @@ body.hidden {
 .wrapper {
   position: relative;
   width: 100%;
-  min-height: 100%;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -440,7 +440,7 @@ img {
 .hero {
   background: url("../images/bg/surfers.png") center bottom 25%/cover no-repeat;
   background-color: #1968B1;
-  height: 100vh;
+  height: 100%;
   min-height: 36.1111111111rem;
   color: #fff;
   font-weight: bold;
@@ -730,7 +730,7 @@ img {
 }
 
 .section {
-  height: 100vh;
+  height: 100%;
   min-height: 36.1111111111rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1357,6 +1357,16 @@ img {
   .fixed-menu {
     display: none;
   }
+}
+.fixed-menu--dark--theme .fixed-menu__item--active .fixed-menu__link {
+  border-color: #000;
+  -webkit-transition: border-color 0.4s;
+  transition: border-color 0.4s;
+}
+.fixed-menu--dark--theme .fixed-menu__link::before {
+  background: #000;
+  -webkit-transition: background 0.4s;
+  transition: background 0.4s;
 }
 
 .fixed-menu__item {
