@@ -26,8 +26,23 @@ task('clean', () => {
 
 task("copy:html",() => {
     return src(`${SRC_PATH}/*.html`)
-    .pipe(dest(DIST_PATH))
+    .pipe(dest(`${DIST_PATH}`))
     .pipe(reload({stream: true}));
+});
+
+task("copy:png",() => {
+    return src(`${SRC_PATH}/images/**/*.png`)
+    .pipe(dest(`${DIST_PATH}/images`))
+});
+
+task("copy:jpg",() => {
+    return src(`${SRC_PATH}/images/**/*.jpg`)
+    .pipe(dest(`${DIST_PATH}/images`))
+});
+
+task("copy:svg",() => {
+    return src(`${SRC_PATH}/images/**/*.svg`)
+    .pipe(dest(`${DIST_PATH}/images`))
 });
 
 task("styles", () => {
@@ -80,7 +95,7 @@ task("icons", () => {
             }
         }
     }))
-    .pipe(dest(`${DIST_PATH}/images/Icons`));
+    .pipe(dest(`${DIST_PATH}/images`));
 });
 
 task('server', () => {
@@ -103,7 +118,7 @@ task(
     "default",
     series(
         "clean", 
-        parallel("copy:html", "styles", "scripts", "icons"),
+        parallel("copy:html", "copy:png", "copy:jpg", "copy:svg", "styles", "scripts", "icons"),
         parallel("watch", 'server')
     )
 );
@@ -112,6 +127,6 @@ task(
     "build",
     series(
         "clean", 
-        parallel("copy:html", "styles", "scripts", "icons")
+        parallel("copy:html","copy:png", "copy:jpg", "copy:svg", "styles", "scripts", "icons")
     )
 );

@@ -13,7 +13,9 @@
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@babel/preset-env": "^7.16.5",
+    "@fancyapps/fancybox": "^3.5.7",
     "browser-sync": "^2.27.7",
+    "bxslider": "^4.2.14",
     "cross-env": "^7.0.3",
     "dart-sass": "^1.25.0",
     "gulp": "^4.0.2",
@@ -31,6 +33,7 @@
     "gulp-svg-sprite": "^1.5.0",
     "gulp-svgo": "^2.2.1",
     "gulp-uglify": "^3.0.2",
+    "mobile-detect": "^1.4.5",
     "node-sass": "^7.0.1",
     "sass": "^1.45.1"
   },
