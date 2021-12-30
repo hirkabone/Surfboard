@@ -40,7 +40,7 @@
 
 .products-menu__item {
     display: flex;
-
+    
     @include phones {
         &.active {
             position: absolute;
